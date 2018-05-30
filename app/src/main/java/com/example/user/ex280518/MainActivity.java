@@ -201,7 +201,6 @@ public class MainActivity extends AppCompatActivity {
         }
         startActivityForResult(t,1);
     }
-
     public void onActivityResult (int a, int b ,Intent c){
         bac=c.getStringExtra("re");
         dis.setText("The last result is "+bac);

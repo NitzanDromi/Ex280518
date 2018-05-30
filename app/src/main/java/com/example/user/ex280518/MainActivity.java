@@ -206,5 +206,4 @@ public class MainActivity extends AppCompatActivity {
         bac=c.getStringExtra("re");
         dis.setText("The last result is "+bac);
     }
-
     }

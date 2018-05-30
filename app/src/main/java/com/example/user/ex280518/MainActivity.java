@@ -202,17 +202,7 @@ public class MainActivity extends AppCompatActivity {
         startActivityForResult(t,1);
     }
 
-    private void startActivityForResult(Intent t) {
-       // Intent z=getIntent();
-        //bac=z.getStringExtra("str");
-        //dis.setText("The last result is"+getIntent().getExtras().getString("re"));
-       // Toast.makeText(this, "The last result is"+z, Toast.LENGTH_SHORT).show();
-       // finish();
-    }
     public void onActivityResult (int a, int b ,Intent c){
-      //  if (c!=null){
-        //    str =c.getStringExtra("re");
-        //}
         bac=c.getStringExtra("re");
         dis.setText("The last result is "+bac);
     }
